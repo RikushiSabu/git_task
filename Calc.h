@@ -3,14 +3,14 @@
 class Calc
 {
 	public:
-		void set(int num1, int num2);
-		int add(int num1, int num2);
-		int sub(int num1, int num2);
-		int mult(int num1, int num2);
-		int div(int num1, int num2);
+		void set(double num1, double num2);
+		double add(double num1, double num2);
+		double sub(double num1, double num2);
+		double mult(double num1, double num2);
+		double div(double num1, double num2);
 	private:
-		int m_num1;
-		int m_num2;
-		int m_num3;
+		double m_num1;
+		double m_num2;
+		double m_num3;
 };
 

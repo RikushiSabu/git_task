@@ -1,33 +1,33 @@
 #include "Calc.h"
 
-void Calc::set(int num1, int num2)
+void Calc::set(double num1, double num2)
 {
 	m_num1 = num1;
 	m_num2 = num2;
 }
 
-int Calc::add(int num1, int num2)
+double Calc::add(double num1, double num2)
 {
 	m_num3 = m_num1 + m_num2;
 
 	return m_num3;
 }
 
-int Calc::sub(int num1, int num2)
+double Calc::sub(double num1, double num2)
 {
 	m_num3 = m_num1 - m_num2;
 
 	return m_num3;
 }
 
-int Calc::mult(int num1, int num2)
+double Calc::mult(double num1, double num2)
 {
 	m_num3 = m_num1 * m_num2;
 
 	return m_num3;
 }
 
-int Calc::div(int num1, int num2)
+double Calc::div(double num1, double num2)
 {
 	m_num3 = m_num1 / m_num2;
 

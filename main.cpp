@@ -7,12 +7,12 @@ using namespace std;
 int main()
 {
 	Calc obj;
-	int num1 ,num2;
+	double num1 ,num2;
 
-	cout << "2つの整数を入力してください" << endl;
-	cout << "整数1: ";
+	cout << "2つの実数を入力してください" << endl;
+	cout << "実数1: ";
 	cin >> num1;
-	cout << "整数2: ";
+	cout << "実数2: ";
 	cin >> num2;
 
 	obj.set(num1, num2);
